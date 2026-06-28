@@ -8,7 +8,50 @@ button{
     padding: 10px;
 }
 
-.screen{
+body{
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculator,
+.screen,
+.screenResult,
+.row{
     border: 1px solid black;
-    height: 20px;
+}
+
+#calculator{
+    width: 300px;
+    padding: 10px;
+    background-color:gray;
+}
+
+.screen{
+    
+    padding: 5px;
+    background-color: rgb(255, 174, 0);
+    margin-bottom: 5px;
+}
+
+.screenResult{
+    
+    background-color: white;
+}
+
+.row{
+    
+    padding: 5px 5px;
+    background-color: black;
+
+    display: flex;
+    flex-flow: wrap;
+    gap: 6px;
+}
+
+.button{
+    padding: 8px;
+    flex: 1;
 }
