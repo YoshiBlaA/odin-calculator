@@ -35,6 +35,10 @@ A browser-based calculator built as part of [The Odin Project](https://www.theod
    ```
 2. Open `index.html` in your browser.
 
+## Live Demo
+
+[Live Demo](https://yoshiblaa.github.io/odin-calculator/)
+
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
